@@ -33,23 +33,26 @@ h3{
     font-size: 1.7rem;
 }
 
+.profile{
+    margin:auto 2rem auto 2rem;
+}
 
 .skill-row{
 
-    width: 50%;
+    width: 55%;
     margin: 6.25rem auto 6.25rem auto;
     line-height: 2;
     text-align: left;
 }
 
 .photoshop{
-    width: 25%;
+    width: 15%;
     float: left;
     padding-right: 2rem;
 }
 
 .network{
-    width: 25%;
+    width: 15%;
     float: right;
     padding-left: 2rem;
 }
@@ -122,6 +125,8 @@ hr{
     border-width: 0.7rem;
     width: 5%;
     color: #F2AAAA;
+}
 
-
+.contact-me{
+    margin: auto 2rem auto 2rem;
 }
