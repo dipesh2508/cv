@@ -1,0 +1,70 @@
+body {
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    background-color: #deedee;
+}
+
+.top-container {
+    background-color: #DDF3F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1 {
+    margin: 3.2rem auto 0 auto;
+    color: #E36387;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #E36387;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#F2AAAA;
+}
+
+
+span{
+    text-decoration: underline;
+}
+
+.middle-container {
+
+}
+
+.contact-me{
+    background-color: #A6DCEF;
+}
+
+.bottom-container {
+    margin-top: 0;
+    background-color: #A6DCEF;
+
+}
+
+.top-cloud {
+    position: absolute;
+    top: 3rem;
+    right:20%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 40%;
+    left: 20%;
+}
+
+.skill-row{
+}
+
+a{
+    color: #E36387;
+}
