@@ -4,7 +4,9 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 1rem;
     background-color: #deedee;
+    color: rgb(35, 22, 40);
 }
+
 
 .top-container {
     background-color: #DDF3F5;
@@ -35,6 +37,11 @@ h3{
 
 .profile{
     margin:auto 2rem auto 2rem;
+}
+
+.para{
+    display: inline-block;
+    width: 50%;
 }
 
 .skill-row{
