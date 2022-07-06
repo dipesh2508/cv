@@ -20,6 +20,7 @@ h1 {
 }
 
 h2{
+    line-height: 2;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #E36387;
@@ -29,21 +30,66 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     color:#F2AAAA;
+    font-size: 1.7rem;
 }
 
+
+.skill-row{
+
+    width: 50%;
+    margin: 6.25rem auto 6.25rem auto;
+    line-height: 2;
+    text-align: left;
+}
+
+.photoshop{
+    width: 25%;
+    float: left;
+    padding-right: 2rem;
+}
+
+.network{
+    width: 25%;
+    float: right;
+    padding-left: 2rem;
+}
 
 span{
     text-decoration: underline;
 }
 
 
-.contact-me{
-    background-color: #A6DCEF;
-}
+.btn {
+    background: #F637EC;
+    background-image: -webkit-linear-gradient(top, #F637EC, #A6DCEF);
+    background-image: -moz-linear-gradient(top, #F637EC, #A6DCEF);
+    background-image: -ms-linear-gradient(top, #F637EC, #A6DCEF);
+    background-image: -o-linear-gradient(top, #F637EC, #A6DCEF);
+    background-image: linear-gradient(to bottom, #F637EC, #A6DCEF);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #422e14;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 2rem auto 4rem auto;
+  }
+  
+  .btn:hover {
+    background: #E36387;
+    background-image: -webkit-linear-gradient(top, #E36387, #423fe3);
+    background-image: -moz-linear-gradient(top, #E36387, #423fe3);
+    background-image: -ms-linear-gradient(top, #E36387, #423fe3);
+    background-image: -o-linear-gradient(top, #E36387, #423fe3);
+    background-image: linear-gradient(to bottom, #E36387, #423fe3);
+    text-decoration: none;
+  }
+
 
 .bottom-container {
-    margin-top: 0;
+    margin-top: 2rem;
     background-color: #A6DCEF;
+    font-size: 1rem;
 
 }
 
@@ -60,8 +106,22 @@ span{
 }
 
 
+.footer-link{
+    display: inline-block;
+    padding: 1rem 1rem 1rem 0;
+    font-size: 1.5rem;
+}
 
 a{
     color: #E36387;
-    font-size: 1rem;
+}
+
+hr{
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 0.7rem;
+    width: 5%;
+    color: #F2AAAA;
+
+
 }
